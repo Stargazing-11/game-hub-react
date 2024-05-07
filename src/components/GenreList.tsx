@@ -3,10 +3,8 @@ import {
   HStack,
   Heading,
   Image,
-  Link,
   List,
   ListItem,
-  Text,
 } from "@chakra-ui/react";
 import useGenres, { Genre } from "../hooks/useGenres";
 import getCroppedImageUrl from "../services/image-url";
